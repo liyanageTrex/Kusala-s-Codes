@@ -73,16 +73,43 @@
 
 
 
-def incdec(n,num):
-    if(n<1 or n>num):
-        return
-    print(n)
-    incdec(n-1,num)
-    print(n)
+# def incdec(n,num):
+#     if(n<1 or n>num):
+#         return
+#     print(n)
+#     incdec(n-1,num)
+#     print(n)
     
 
-num = int(input("Enter your range n :"))
-incdec(num,num)
-    
-    
+# num = int(input("Enter your range n :"))
+# incdec(num,num)
+
+
+#ARAYS
+
+
+
+# print(len(arr))  
+
+# arr.sort(reverse=True)
+# print(arr)
+
+# arr.sort()
+# print(arr)
+
+# arr.append(786)
+# print(arr)
+
+# print(arr[6])
+
+# Total = sum(arr)
+# print(Total)
+
+# arr = [1,2,3,4,5,6] 
+
+# High_num = max(arr)
+# print(High_num)
+
+# Low_num = min(arr)
+# print(Low_num)
 
